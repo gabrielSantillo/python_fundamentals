@@ -27,3 +27,15 @@ for name in names:
 
 for num in array_numbers:
     print('Look at this number: ', num)
+
+def static_greeting():
+    print('Hello Gabriel')
+
+static_greeting()
+
+def dynamic_greeting(name):
+    print('Hello', name)
+
+dynamic_greeting('Daniel')
+dynamic_greeting('Naty')
+dynamic_greeting('Chicago')
