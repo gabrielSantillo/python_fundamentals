@@ -18,3 +18,12 @@ elif(x > 100 or is_true == True):
     print('Large or True')
 else:
     print('I dont know')
+
+names = ['Gabriel', 'Natalia', 'Chicago']
+array_numbers = [26, 37, 1]
+
+for name in names:
+    print('Look at this name: ' + name)
+
+for num in array_numbers:
+    print('Look at this number: ' +  str(num))
