@@ -23,7 +23,7 @@ names = ['Gabriel', 'Natalia', 'Chicago']
 array_numbers = [26, 37, 1]
 
 for name in names:
-    print('Look at this name: ' + name)
+    print('Look at this name: ', name)
 
 for num in array_numbers:
-    print('Look at this number: ' +  str(num))
+    print('Look at this number: ', num)
