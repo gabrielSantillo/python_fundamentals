@@ -39,3 +39,15 @@ def dynamic_greeting(name):
 dynamic_greeting('Daniel')
 dynamic_greeting('Naty')
 dynamic_greeting('Chicago')
+
+def find_treasure(array_of_string):
+    for array in array_of_string:
+        if(array == 'treasure'):
+            print('Found the treasure')
+            return True            
+
+    print('Not here')
+    return False        
+
+find_treasure(['gold', 'garbage', 'treasure'])
+find_treasure(['gold', 'garbage', 'trap'])
